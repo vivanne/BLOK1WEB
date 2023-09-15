@@ -1,31 +1,190 @@
 /**************/
 /* CSS REMEDY */
 /**************/
+@font-face {
+	font-family: 'bacardi';
+	src: url(../fonts/GrotesqueMTStd-BoldExtended.woff2);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'bacardi1';
+	src: url(../fonts/GrotesqueMTStd-Condensed.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi3';
+	src: url(../fonts/GrotesqueMTStd.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi4';
+	src: url(../fonts/GrotesqueMTStd\ \(1\).woff2);
+}
+
+@font-face {
+	font-family: 'bacardi5';
+	src: url(../fonts/GrotesqueMTStd-Bold.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi6';
+	src: url(../fonts/GrotesqueDispMTStd-BoldCn.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi7';
+	src: url(../fonts/Neutra2Cond-Titling\ \(2\).woff2);
+}
+
+@font-face {
+	font-family: 'bacardi8';
+	src: url(../fonts/satisfy-regular\ \(1\).woff2);
+}
+
+@font-face {
+	font-family: 'bacardi9';
+	src: url(../fonts/Anton-Regular.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi10';
+	src: url(../fonts/Trueno.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi11';
+	src: url(../fonts/TruenoBold.woff2);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'bacardi12';
+	src: url(../fonts/fontello\ \(1\).woff2);
+}
+
+@font-face {
+	font-family: 'calibri';
+	src: url(../fonts/Calibri.woff2);
+}
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
 
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:rgb(255, 255, 255);
+}
+
+body {
+	/* background-color: #111; */
+	margin: 0;
+}
+
+h2 {
+	font-family: 'bacardi1';
+	text-transform: uppercase;
+	font-size: 0.875em;
+	margin-top: 0;
+	margin-bottom: 1vw;
+	/* margin-right: 1.4em; */
+	padding-left: 11%;
+}
+
+h3 {
+	font-family: 'bacardi';
+	text-transform: uppercase;
+	font-size: 2.5em;
+	margin-top: 0;
+	/* margin-right: 1.5em; */
+	margin-bottom: 0.6vw;
+	padding-left: 10%;
+}
+
+figure {
+	margin: 0;
+	margin-left: 20%;
+
+}
+
+figcaption {
+	font-family: 'bacardi';
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+}
+
+p {
+	font-family: 'calibri';
+	margin-top: 0;
+	padding-left: 10%;
+	/* margin-right: 1.5em; */
+	color: #1a1818;
+	font-size: large;
+	line-height: 1.5em;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 5.33vw 5.33vw;
+	margin-top: 0;
+	margin-bottom: 0;
+	/* min-height: 17.1vw; */
+	background-color: white;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: 3;
+}
+
+ul li {
+	overflow: hidden;
+}
+
+nav ul li:nth-of-type(2){
+	width: 2em;
+	padding: 0;
+}
+
+video {
+	width: 100%;
+	margin-top: 2em;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	padding: 0;
+}
+
+section:first-of-type {
+	display: flex;
+	overflow-x: auto;
+}
+
+section:first-of-type img {
+	width: 15em;
 }
 
 
+/* ------------------------------------------ */
 
+section:nth-of-type(2) {
+	display: flex;
+	overflow-x: auto;
+}
 
+section:nth-of-type(2) ul {
+	display: flex;
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
+/* section:nth-of-type(2) ul li:nth-of-type(1){
+	width: 15em;
+} */
