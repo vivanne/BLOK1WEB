@@ -63,7 +63,7 @@ hier de naam van de pagina
 
 ### de hele pagina:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/screenshotvolledigepagina.png" width="375px" alt="De header moet nog wel werken. De eerste sectie is bijna af. Mijn carousels moeten nog mooi gemaakt worden met css.De footer is redelijk af. De fonts staan er bijna allemaal goed in ik moet alleen de kleuren allemaal nog in properties zetten. En als laatst moet er ook nog een achtergrondkleur worden toegevoegd.">
 
 ### dynamisch deel (bijv menu):
 
@@ -71,7 +71,7 @@ hier de naam van de pagina
 
 ### wellicht nog een dynamisch deel (bijv filter):
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/screenshotmeerweten.png" width="375px" alt="Ik heb na de eerste meeting de meer weten sectie kunnen uitwerken. De vormgeving is nog niet af maar hij staat er wel alvast in.">
 
 </details>
 
@@ -83,6 +83,8 @@ hier de naam van de pagina
 ### Stand van zaken
 
 - Ik heb doormiddel van oefeningen in de les mijn eerste section kunnen uitwerken met position relative en absolute. Zie screenshot hierboven.
+
+- Dropdown-menu
 
 ### Agenda voor meeting
 
