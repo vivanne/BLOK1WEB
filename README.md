@@ -14,11 +14,11 @@ Nb. Door _open_ toe te voegen aan een _details_ element kun je deze standaard op
 
 ### Auteur:
 
-Sanne 't Hooft (vervangen door jouw naam)
+Vivanne Hoogendam
 
 #### Je startniveau:
 
-blauw/rood
+blauw
 
 #### Je focus:
 
@@ -54,8 +54,6 @@ hier de naam van de pagina
 
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen:
-
 </details>
 
 ## Breakdownschets (week 1)
@@ -69,7 +67,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 ### dynamisch deel (bijv menu):
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/readmefoto1000.png" width="375px" alt="RUMpagina">
 
 ### wellicht nog een dynamisch deel (bijv filter):
 
@@ -84,7 +82,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+- Ik heb doormiddel van oefeningen in de les mijn eerste section kunnen uitwerken met position relative en absolute. Zie screenshot hierboven.
 
 ### Agenda voor meeting
 
@@ -100,10 +98,10 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Dropdown menu uitwerking
+- A11y Hide content kunnen toepassen voor de h1
+- Meta data in de head tag aanpassen
+- Border bottom/top gebruiken voor lijntjes onder tekst.
 
 </details>
 
@@ -114,7 +112,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+--> het uitwerken van een footer ging uiteindelijk veel makkelijker dan gedacht. Ik moet het niet ingewikkelder maken dan het is.
+
+--> Ik ben de hamburger menu aan het uitstellen omdat ik niet weet waar ik moet beginnen.
+
+--> Ik kan ondertussen wel inschatten wanneer ik wel en niet divs mag plaatsen.
+
+--> Ik moet nogsteeds beginnen aan het responsive maken van mijn website
+
+--> Tot nu toe gelukt en klaar: Footer, Nav bar (alleen niet klikbaar), de fonts zijn erin gezet, de eerste sectie is af (na het plaatsen van een gradient.)
+
+wat wil ik graag weten?
+
+-- Kan je makkelijk een gradient overlay boven een image plaatsen?
 
 ### Agenda voor meeting
 
