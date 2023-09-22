@@ -84,7 +84,7 @@ hier de naam van de pagina
 
 - Ik heb doormiddel van oefeningen in de les mijn eerste section kunnen uitwerken met position relative en absolute. Zie screenshot hierboven.
 
-- Dropdown-menu
+-dropdown menu is me ook gelukt na de meeting. Alleen de vormgeving mist nog.
 
 ### Agenda voor meeting
 
@@ -132,11 +132,11 @@ wat wil ik graag weten?
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1                                                                    | student 2                    | student 3                                     | student 4                                                                     |
+| ---------------------------------------------------------------------------- | ---------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------- |
+| dit bespreken;vraag 1: Ik wil graag bespreken hoe je een carasoul moet maken | en: knoppen bij de carousel? | en ik dit: Video op 100% groot scherm krijgen | en dan ik dat: Hoe kan ik ervoor zorgen dat de scroller eindeloos door loopt. |
+| en dat ook nog                                                               | dit als er tijd is           | nog een punt                                  | dit wil ik zeker                                                              |
+| ...                                                                          | ...                          | ...                                           | ...                                                                           |
 
 ### Verslag van meeting
 
