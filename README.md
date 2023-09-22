@@ -132,11 +132,11 @@ wat wil ik graag weten?
 
 samen met je groepje opstellen
 
-| student 1                                                                                  | student 2                 | student 3                          | student 4                                                                                |
-| ------------------------------------------------------------------------------------------ | ------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------- |
-| vraag 1: Ik wil graag bespreken hoe je een carasoul moet maken en knoppen bij de carousel? |                           | Video op 100% groot scherm krijgen | Hoe kan ik ervoor zorgen dat de scroller eindeloos door loopt.                           |
-| en dat ook nog                                                                             | Wat vragen over animeren. | nog een punt                       | oplossing van probleem met het wijzigen van de volgorde waarin items worden weergegeven. |
-| ...                                                                                        | ...                       | ...                                | ...                                                                                      |
+| student 1                                                                                  | student 2                 | student 3                                                                                                     | student 4                                                                                |
+| ------------------------------------------------------------------------------------------ | ------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| vraag 1: Ik wil graag bespreken hoe je een carasoul moet maken en knoppen bij de carousel? |                           | Kan je met css een gradient overlay geven aan een img? Of is het handiger om dat gewoon met photoshop te doen | Hoe kan ik ervoor zorgen dat de scroller eindeloos door loopt.                           |
+| Video op 100% groot scherm krijgen                                                         | Wat vragen over animeren. | nog een punt                                                                                                  | Oplossing van probleem met het wijzigen van de volgorde waarin items worden weergegeven. |
+| ...                                                                                        | ...                       | ...                                                                                                           | ...                                                                                      |
 
 ### Verslag van meeting
 
