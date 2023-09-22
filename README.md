@@ -63,7 +63,7 @@ hier de naam van de pagina
 
 ### de hele pagina:
 
-<img src="images/screenshotvolledigepagina.png" width="375px" alt="De header moet nog wel werken. De eerste sectie is bijna af. Mijn carousels moeten nog mooi gemaakt worden met css.De footer is redelijk af. De fonts staan er bijna allemaal goed in ik moet alleen de kleuren allemaal nog in properties zetten. En als laatst moet er ook nog een achtergrondkleur worden toegevoegd.">
+<img src="./images/screenshotvolledigepagina.png" width="375px" alt="De header moet nog wel werken. De eerste sectie is bijna af. Mijn carousels moeten nog mooi gemaakt worden met css.De footer is redelijk af. De fonts staan er bijna allemaal goed in ik moet alleen de kleuren allemaal nog in properties zetten. En als laatst moet er ook nog een achtergrondkleur worden toegevoegd.">
 
 ### dynamisch deel (bijv menu):
 
@@ -71,7 +71,7 @@ hier de naam van de pagina
 
 ### wellicht nog een dynamisch deel (bijv filter):
 
-  <img src="images/screenshotmeerweten.png" width="375px" alt="Ik heb na de eerste meeting de meer weten sectie kunnen uitwerken. De vormgeving is nog niet af maar hij staat er wel alvast in.">
+  <img src="./images/screenshotmeerweten.png" width="375px" alt="Ik heb na de eerste meeting de meer weten sectie kunnen uitwerken. De vormgeving is nog niet af maar hij staat er wel alvast in.">
 
 </details>
 
@@ -132,11 +132,11 @@ wat wil ik graag weten?
 
 samen met je groepje opstellen
 
-| student 1                                                                    | student 2                    | student 3                                     | student 4                                                                     |
-| ---------------------------------------------------------------------------- | ---------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------- |
-| dit bespreken;vraag 1: Ik wil graag bespreken hoe je een carasoul moet maken | en: knoppen bij de carousel? | en ik dit: Video op 100% groot scherm krijgen | en dan ik dat: Hoe kan ik ervoor zorgen dat de scroller eindeloos door loopt. |
-| en dat ook nog                                                               | dit als er tijd is           | nog een punt                                  | dit wil ik zeker                                                              |
-| ...                                                                          | ...                          | ...                                           | ...                                                                           |
+| student 1                                                                                  | student 2                 | student 3                          | student 4                                                                                |
+| ------------------------------------------------------------------------------------------ | ------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------- |
+| vraag 1: Ik wil graag bespreken hoe je een carasoul moet maken en knoppen bij de carousel? |                           | Video op 100% groot scherm krijgen | Hoe kan ik ervoor zorgen dat de scroller eindeloos door loopt.                           |
+| en dat ook nog                                                                             | Wat vragen over animeren. | nog een punt                       | oplossing van probleem met het wijzigen van de volgorde waarin items worden weergegeven. |
+| ...                                                                                        | ...                       | ...                                | ...                                                                                      |
 
 ### Verslag van meeting
 
