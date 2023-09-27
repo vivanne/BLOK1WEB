@@ -1,0 +1,127 @@
+/**************/
+/* FONTS */
+/**************/
+@font-face {
+	font-family: 'bacardi';
+	src: url(../fonts/GrotesqueMTStd-BoldExtended.woff2);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'bacardi1';
+	src: url(../fonts/GrotesqueMTStd-Condensed.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi3';
+	src: url(../fonts/GrotesqueMTStd.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi4';
+	src: url(../fonts/GrotesqueMTStd\ \(1\).woff2);
+}
+
+@font-face {
+	font-family: 'bacardi5';
+	src: url(../fonts/GrotesqueMTStd-Bold.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi6';
+	src: url(../fonts/GrotesqueDispMTStd-BoldCn.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi7';
+	src: url(../fonts/Neutra2Cond-Titling\ \(2\).woff2);
+}
+
+@font-face {
+	font-family: 'bacardi8';
+	src: url(../fonts/satisfy-regular\ \(1\).woff2);
+}
+
+@font-face {
+	font-family: 'bacardi9';
+	src: url(../fonts/Anton-Regular.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi10';
+	src: url(../fonts/Trueno.woff2);
+}
+
+@font-face {
+	font-family: 'bacardi11';
+	src: url(../fonts/TruenoBold.woff2);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'bacardi12';
+	src: url(../fonts/fontello\ \(1\).woff2);
+}
+
+@font-face {
+	font-family: 'calibri';
+	src: url(../fonts/Calibri.woff2);
+}
+
+*, *::after, *::before {
+    box-sizing:border-box;  
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+      /* startje */
+      --color-text:#464646;
+      --color-accent:#c10020;
+      --color-background:rgb(255, 255, 255);
+      --color-background2:#fffbf3;
+      --color-footer1:#272624;
+  }
+
+
+h2 {
+	font-family: 'bacardi1';
+	text-transform: uppercase;
+	font-size: 0.875em;
+	margin-top: 1em;
+}
+
+h3 {
+	font-family: 'bacardi';
+	text-transform: uppercase;
+	font-size: 2.3em;
+	margin: 0;
+} 
+
+main img {
+	max-width: 100%;
+} 
+
+ul {
+	padding: 0;
+}
+
+p {
+	font-family: 'calibri'; 
+	font-size: large;
+	line-height: 1.5em;
+	margin-top: .4em;
+	color: var(--color-text);
+} 
+
+video {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 150vw;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -2em;
+}
+
+
