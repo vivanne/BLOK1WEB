@@ -173,11 +173,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1                                                                                  | student 2                                                                 | student 3                                                 | student 4                                                                |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------ |
+| vraag 1: hoe en of ik ::after moet gebruiken                                               |
+| Vraag 1 :Hoe laat ik met een knop specifieke dingen naar voren komen                       | Vraag: hoe laat ik mijn nav animeren?                                     | Vraag2: hoe zorg ik ervoor dat de em losstaat van mn span | vraag 2: Wat zijn de beste dingen om toe te passen als je frontend kiest |
+| vraag 2 (als genoeg tijd over): hoe zorg ik voor bepaalde animatie bij meer weten section. | vraag 2: mijn font dikte is net een beetje anders, font weight werkt niet | ...                                                       | ...                                                                      |
 
 ### Verslag van meeting
 

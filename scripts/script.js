@@ -16,8 +16,7 @@ vid.onclick = pauseVideo;
 
 function pauseVideo() {
     vid.pause();
-}
-
+}   
 
 closing.onclick = sluitMenu;
 
