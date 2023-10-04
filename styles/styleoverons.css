@@ -1,88 +1,7 @@
-/**************/
-/* FONTS */
-/**************/
-@font-face {
-	font-family: 'bacardi';
-	src: url(../fonts/GrotesqueMTStd-BoldExtended.woff2);
-	font-weight: bold;
+
+body {
+	background-color:var(--color-background2);
 }
-
-@font-face {
-	font-family: 'bacardi1';
-	src: url(../fonts/GrotesqueMTStd-Condensed.woff2);
-}
-
-@font-face {
-	font-family: 'bacardi3';
-	src: url(../fonts/GrotesqueMTStd.woff2);
-}
-
-@font-face {
-	font-family: 'bacardi4';
-	src: url(../fonts/GrotesqueMTStd\ \(1\).woff2);
-}
-
-@font-face {
-	font-family: 'bacardi5';
-	src: url(../fonts/GrotesqueMTStd-Bold.woff2);
-}
-
-@font-face {
-	font-family: 'bacardi6';
-	src: url(../fonts/GrotesqueDispMTStd-BoldCn.woff2);
-}
-
-@font-face {
-	font-family: 'bacardi7';
-	src: url(../fonts/Neutra2Cond-Titling\ \(2\).woff2);
-}
-
-@font-face {
-	font-family: 'bacardi8';
-	src: url(../fonts/satisfy-regular\ \(1\).woff2);
-}
-
-@font-face {
-	font-family: 'bacardi9';
-	src: url(../fonts/Anton-Regular.woff2);
-}
-
-@font-face {
-	font-family: 'bacardi10';
-	src: url(../fonts/Trueno.woff2);
-}
-
-@font-face {
-	font-family: 'bacardi11';
-	src: url(../fonts/TruenoBold.woff2);
-	font-weight: bold;
-}
-
-@font-face {
-	font-family: 'bacardi12';
-	src: url(../fonts/fontello\ \(1\).woff2);
-}
-
-@font-face {
-	font-family: 'calibri';
-	src: url(../fonts/Calibri.woff2);
-}
-
-*, *::after, *::before {
-    box-sizing:border-box;  
-    margin: 0;
-    padding: 0;
-  }
-  
-  :root {
-      /* startje */
-      --color-text:#464646;
-      --color-accent:#c10020;
-      --color-background:rgb(255, 255, 255);
-      --color-background2:#fffbf3;
-      --color-footer1:#272624;
-  }
-
 
 h2 {
 	font-family: 'bacardi1';
@@ -94,7 +13,7 @@ h2 {
 h3 {
 	font-family: 'bacardi';
 	text-transform: uppercase;
-	font-size: 2.3em;
+	font-size: 1.7em;
 	margin: 0;
 } 
 
@@ -118,10 +37,97 @@ video {
     position: relative;
     display: block;
     width: 100%;
-    min-height: 150vw;
     object-fit: cover;
     object-position: center;
-    margin-top: -2em;
 }
 
+/* -------------------------------------- */
 
+section:nth-of-type(1){
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	bottom: .5em;
+	left: .4em;
+	font-family: "bacardi";
+	text-transform: uppercase;
+	color: rgba(0,0,0,.1);
+    -webkit-text-stroke: 1.5px #fff;
+	font-size: 3.5em;
+	letter-spacing: -2px;
+}
+
+/* -------------------------------------- */
+
+section:nth-of-type(2) {
+	margin: 1.5em;
+}
+
+section:nth-of-type(2) ul {
+	display: grid;
+	list-style: none;
+	row-gap: 1em;
+}
+
+section:nth-of-type(2) ul li{
+	position: relative;
+}
+
+/* Bronnen: Coyier, Chris(mar 13, 2018). Notched Boxes; https://css-tricks.com/notched-boxes/ */
+section:nth-of-type(2) ul li img{
+	width:100%;
+	height:25em;
+	object-fit: cover;
+		clip-path: 
+		  polygon(
+			0% 5%,     /* top left */
+			5% 0%,     /* top left */
+			95% 0%,    /* top right */
+			100% 5%,   /* top right */
+			100% 95%,  /* bottom right */
+			95% 100%,  /* bottom right */
+			5% 100%,   /* bottom left */
+			0 95%      /* bottom left */
+		  );
+	  }
+
+section:nth-of-type(2) ul div{
+	position: absolute;
+	bottom:1.5em;
+	left: 1em;
+	margin-right: 2em;
+	z-index: 4;
+}
+
+section:nth-of-type(2) ul a {
+	text-decoration: none;
+	color: var(--color-textimg);
+}
+
+/* ---------------load more button------------------------ */
+
+section:nth-of-type(2) button {
+	display: block;
+	text-align: center;
+	width: 100%;
+
+	font-family: 'bacardi';
+	font-size: .75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--color-accent);
+	background-color: transparent;
+	border: var(--color-accent) .2em solid;
+
+	padding: 1.2em;
+	margin-top: 1em;
+}
+
+/* bron: Gaver, Dirk(25 feb 2021). The Best CSS Button Hover Effects You Can Use Too; https://www.sliderrevolution.com/resources/css-button-hover-effects/ */
+section:nth-of-type(2) button:hover {
+	box-shadow: inset 0 -4.25em 0 0 var(--color-accent);
+	transition: .3s;
+	color: var(--color-textimg)
+} 

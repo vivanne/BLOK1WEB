@@ -1,0 +1,565 @@
+
+/* ****************************************************
+BASIS ELEMENTEN
+*******************************************************/
+
+body {
+	background-color: var(--color-background);
+} 
+
+h1 {
+	clip: rect(0 0 0 0);
+  	clip-path: inset(50%);
+}
+
+h2 {
+	font-family: 'bacardi1';
+	text-transform: uppercase;
+	font-size: 0.875em;
+	color: var(--color-headers);
+	
+	margin-top: 1em;
+}
+
+h3 {
+	font-family: 'bacardi';
+	text-transform: uppercase;
+	font-size: 2.3em;
+	color: var(--color-headers);
+} 
+
+main img {
+	max-width: 100%;
+} 
+
+p {
+	font-family: 'calibri'; 
+	font-size: large;
+	line-height: 1.5em;
+	color: var(--color-text);
+} 
+
+/* **************************************************
+PAGINA INDELING
+*****************************************************/
+
+/* ---------------------------------------------------------
+  Eerste section met de video en pauzeer button erin.
+ ---------------------------------------------------------*/
+
+section:nth-of-type(1) {
+	position: relative;
+}
+
+
+/* voor de h2 die in de section moest omdat er anders error was. */
+section:nth-of-type(1) > h2 {
+	display: none;
+}
+
+section:nth-of-type(1) video {
+	width: 100%;
+	min-height: 20em;
+    object-fit: cover;
+
+}
+
+section:nth-of-type(1) button{
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+
+	border: none;
+	background-color: transparent;
+}
+
+/* ---------------------------------------------------------
+2e Section 
+---------------------------------------------------------*/
+
+main section:nth-of-type(2) {
+	margin-top: 3em;
+}
+
+/* Voor de h2 die weer nodig was voor error in section */
+main section:nth-of-type(2) > h2 {
+	display: none;
+}
+
+
+main section:nth-of-type(2) li {
+	position: relative;
+}
+
+main section:nth-of-type(2) div{
+	position: absolute;
+	top: 2em;
+	left: 1em;
+	right: 2em;
+	z-index: 90;
+
+	color: var(--color-textimg);
+}
+
+main section:nth-of-type(2) h2 {
+	color: var(--color-textimg);
+}
+
+main section:nth-of-type(2) div h3 {
+	color: var(--color-textimg);
+
+	margin-bottom: .1em;
+}
+
+main section:nth-of-type(2) p {
+	color: var(--color-textimg);
+}
+
+main section:nth-of-type(2) li img {
+	width:100%;
+	min-height:20em;
+	object-fit: cover;
+
+	filter: brightness(0.7);
+} 
+
+/* deze heeft een lagere brightness gekregen voor een hoger contrast */
+main section:nth-of-type(2) li:nth-of-type(3) img {
+	filter: brightness(0.5);
+} 
+
+/* ---------------------------------------------------------
+3e Section : Onze Rums
+---------------------------------------------------------*/
+
+main section:nth-of-type(3) {
+	background-color: var(--color-background2);
+
+	padding: 1em;
+}
+
+/* Voor de h2 die er verplicht in moest (section) */
+main section:nth-of-type(3) > h2 {
+	display: none;
+}
+
+/* ------ bovenste section in de section--------------- */
+
+main section:nth-of-type(3) section:nth-of-type(1){
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+main section:nth-of-type(3) section:nth-of-type(1) h2{
+	display: block;
+	order: 3;
+}
+
+main section:nth-of-type(3) section:nth-of-type(1) h3{
+	margin-top: 0;
+	order: 2;
+}
+
+main section:nth-of-type(3) section:nth-of-type(1) p{
+	order: 1;
+
+	color: var(--color-text);
+}
+
+main section:nth-of-type(3) section:nth-of-type(1) img{
+	order: 4;
+	
+	margin-top: 0;
+	margin-right: 0;
+}
+
+/* ----onderste scrollbare section---------------------- */
+main section:nth-of-type(3) section:nth-of-type(2) {
+	display: flex;
+	overflow: hidden;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+	gap: 1em;
+}
+
+main section:nth-of-type(3) section a{
+	width: 13em;
+	text-decoration: none;
+}
+
+main section:nth-of-type(3) section a:first-of-type{
+	margin-left: 50vw;
+}
+
+main section:nth-of-type(3) section a:nth-of-type(5) {
+	font-size: 1em;
+
+	margin-top: 0;
+	margin-right: 50vw;
+	padding: 0;
+}
+
+main section:nth-of-type(3) section a:nth-of-type(5):hover {
+	box-shadow: inset 0 -4.25em 0 0 transparent;
+	background-color: transparent;
+	color: var(--color-accent);
+}
+
+figure {
+	display: grid;
+	grid-template-rows: 15em 3em;
+	width: 15em;
+
+	text-align: center;
+	place-content: center;
+
+	scroll-snap-align: center;
+
+	margin: 0;
+}
+
+figure figcaption {
+	order: 2;
+
+	font-family: 'bacardi';
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--color-headers);
+
+	margin: .8em;
+}
+
+figure img {
+	order: 1;
+
+	height: 15em;
+
+	place-content: center;
+	align-items: center;
+}
+
+/* -------SCROLLBAR STYLING VOOR DE DERDE SECTION----------------------------- */
+/* Bronnen:
+Sanne 't Hooft. https://codepen.io/shooft/pen/XWoYoVg 
+Quinten Kok. ::-webkit-scrollbar Text*/
+
+main section:nth-of-type(3) section:nth-of-type(2)::-webkit-scrollbar {
+	width: 2px;
+}
+
+main section:nth-of-type(3) section:nth-of-type(2)::-webkit-scrollbar-track {
+	background-color: rgba(244, 218, 211, 0.372);
+	border-radius: 1em;
+	border: 7px solid transparent;
+	background-clip: content-box;
+
+  }
+
+  main section:nth-of-type(3) section:nth-of-type(2)::-webkit-scrollbar-thumb {
+	background-color: var(--color-accent);
+	border: 7px solid transparent;
+  	background-clip: content-box;
+	border-radius: 1em;
+
+	padding: 0;
+}
+/* --------------------------------------------------------------------------- */
+
+/* styling voor de onderste button: Alle rums */
+main section:nth-of-type(3) section a:last-of-type {
+	height: 20em;
+	border: none;
+}
+
+main section:nth-of-type(3) a:last-of-type {
+	display: block;
+	text-align: center;
+	width: 100%;
+	
+	font-family: 'bacardi';
+	font-size: .75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--color-accent);
+	border: var(--color-accent) .2em solid;
+
+	padding: 1.2em;
+	margin-top: 1em;
+}
+
+main section:nth-of-type(3) a:last-of-type:hover  {
+	box-shadow: inset 0 -4.25em 0 0 var(--color-accent);
+	transition: .3s;
+	color: var(--color-textimg)
+}
+
+/* ---------------------------------------------------------
+4e Section: Cocktail gedeelte
+-----------------------------------------------------------*/
+
+section:nth-of-type(4) {
+	background-color: var(--color-background2);
+
+	padding: 1em;
+	padding-top: 2em;
+}
+
+section:nth-of-type(4) p {
+	color: var(--color-text);
+}
+
+section:nth-of-type(4) section {
+	margin-top: 0;
+}
+
+section:nth-of-type(4) section ul {
+	display: flex;
+	overflow-x: auto;
+}
+
+section:nth-of-type(4) section ul li {
+	position: relative;
+	height: 24em;
+
+	list-style: none;
+
+	margin-top: 2em;
+	padding: 8em;
+	padding-bottom: 0;
+}
+
+section:nth-of-type(4) section ul li h3{
+	position: absolute;
+	top: .3em;
+	left: .3em;
+
+	font-size: 2em;
+	color: var(--color-background2);
+}
+
+section:nth-of-type(4) section ul li img{
+	position: absolute;
+	bottom: 0;
+	left: .5em;
+}
+
+section:nth-of-type(4) section ul li:first-child {
+	background-color: rgb(79, 138, 144);
+	/* margin-left: 1em; */
+}
+
+section:nth-of-type(4) section ul li:first-child a {
+	border: none;
+}
+
+section:nth-of-type(4) section ul li:first-child a:hover {
+	box-shadow: inset 0 -4.25em 0 0 transparent;
+	color: var(--color-accent)
+}
+
+section:nth-of-type(4) section ul li:first-child a img {
+	filter: none;
+}
+
+section:nth-of-type(4) section ul li:nth-child(2) {
+	background-color: rgb(92, 157, 101);
+}
+
+section:nth-of-type(4) section ul li:nth-child(2) a {
+	border: none;
+}
+
+section:nth-of-type(4) section ul li:nth-child(2) a:hover {
+	box-shadow: inset 0 -4.25em 0 0 transparent;
+	color: var(--color-accent)
+}
+
+section:nth-of-type(4) section ul li:nth-child(2) a img {
+	filter: none;
+}
+
+section:nth-of-type(4) section ul li:nth-child(3) {
+	background-color: rgb(92, 157, 101);
+}
+
+section:nth-of-type(4) section ul li:nth-child(3) a {
+	border: none;
+}
+
+section:nth-of-type(4) section ul li:nth-child(3) a:hover {
+	box-shadow: inset 0 -4.25em 0 0 transparent;
+	color: var(--color-accent)
+}
+
+section:nth-of-type(4) section ul li:nth-child(3) a img {
+	filter: none;
+}
+
+/* -------SCROLLBAR STYLING VOOR DE DERDE SECTION----------------------------- */
+section:nth-of-type(4) section ul::-webkit-scrollbar {
+	width: 2px;
+}
+
+main section:nth-of-type(4) section ul::-webkit-scrollbar-track {
+	background-color: rgba(244, 218, 211, 0.372);
+	border-radius: 1em;
+	border: 7px solid transparent;
+	background-clip: content-box;
+
+}
+
+main section:nth-of-type(4) section ul::-webkit-scrollbar-thumb {
+	background-color: var(--color-accent);
+	border: 7px solid transparent;
+  	background-clip: content-box;
+	border-radius: 1em;
+}
+/* ---------------------------------------------------------------------------- */
+
+/* styling voor de onderste button: Alle Cocktails */
+main section:nth-of-type(4) a:last-of-type {
+	display: block;
+	text-align: center;
+	width: 100%;
+
+	font-family: 'bacardi';
+	font-size: .75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--color-accent);
+	border: var(--color-accent) .2em solid;
+
+	padding: 1.2em;
+	margin-top: 1em;
+}
+
+main section:nth-of-type(4) a:last-of-type:hover {
+	box-shadow: inset 0 -4.25em 0 0 var(--color-accent);
+	transition: .3s;
+	color: var(--color-textimg)
+}
+
+/* ---------------------------------------------------------
+5e Section: Meer weten (details & summary)
+---------------------------------------------------------*/
+
+/* Verborgen h2 ivm section */
+main section:nth-of-type(5) > h2 {
+	display: none;
+}
+
+main section:nth-of-type(5) section:nth-of-type(1) > h2 {
+	display: none;
+}
+
+/* -------------------------------------------------------- */
+/* Over elkaar geplaatste foto's*/
+main section:nth-of-type(5) section:nth-of-type(1) {
+	position: relative;
+	width: 100%;
+	height: 23em;
+}
+
+main section:nth-of-type(5) section:nth-of-type(1) img:nth-of-type(1) {
+	position: absolute;
+	top: 2em;
+    right: 2em;
+    width: 16em;
+	z-index: 1;
+}
+
+main section:nth-of-type(5) section:nth-of-type(1) img:nth-of-type(2) {
+	position: absolute;
+	right: 0;
+    bottom: 0;
+    width: 72vw;
+	z-index: 2;
+}
+
+main section:nth-of-type(5) section:nth-of-type(1) img:nth-of-type(3) {
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 17em;
+	z-index: 3;
+}
+
+/* ------------------------------------------------------------- */
+
+main section:nth-of-type(5) {
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+	margin-top: 2em;
+}
+
+main section:nth-of-type(5) section:nth-of-type(2) h2 {
+	display: block;
+
+	color: var(--color-text);
+}
+
+main section:nth-of-type(5) section:nth-of-type(2) {
+	position: relative;
+}
+
+main section:nth-of-type(5) p {
+	color: var(--color-text);
+}
+
+summary {
+	display: flex;
+	justify-content: space-between;
+
+	font-family: 'bacardi';
+	font-size: 1.125em;
+	text-transform: uppercase;
+	line-height: 1.3em;
+	color: var(--color-headers);
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+	border-bottom: solid var(--color-divider) .02em;
+}
+
+details:first-of-type {
+	border-top: 1px solid #f3ecdf;
+	margin-top: 1em;
+}
+
+details summary::before {
+	content: "+";
+	order: 2;
+
+	padding-left: 2em;
+}
+
+details[open] summary::before {
+	content: "-";
+	order: 2;
+
+	padding-left: 2em;
+}
+
+/* --------------------------------------------------------- */
+/* De code waardoor fotos boven elkaar terecht komen als er een bepaalde details open gaat */
+html:has( details:nth-of-type(2)[open] )  main section:nth-of-type(5) section:nth-of-type(1) img:nth-of-type(3) {
+	z-index: 1;
+}
+
+html:has( details:nth-of-type(2)[open] ) main section:nth-of-type(5) section:nth-of-type(1) img:nth-of-type(2) {
+	z-index: 3;
+}
+
+html:has( details:nth-of-type(3)[open] ) main section:nth-of-type(5) section:nth-of-type(1) img:nth-of-type(1) {
+	z-index: 3;
+}
+html:has( details:nth-of-type(3)[open] ) main section:nth-of-type(5) section:nth-of-type(1) img:nth-of-type(3) {
+	z-index: 2;
+}
+
+/* ---------------------------------------------------------
+The end.
+---------------------------------------------------------*/

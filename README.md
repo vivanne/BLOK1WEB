@@ -183,10 +183,9 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik heb uitgelegd gekregen hoe ik de scrollbar aanspreek en kan stijlen.
+- Ik heb de html has code voorgeschreven gekregen. En kan dit nu een soort van uitleggen en toepassen in mijn eigen code
+- Video pauzeren kan ik aan Ananda vragen.
 
 </details>
 
@@ -221,8 +220,11 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 Nb. ChatGpT en andere AI horen er ook bij.
 Nb. Vermeld de bronnen ook in je code.
 
-1. bron 1
-2. bron 2
-3. ...
+1. Coyier, Chris(mar 13, 2018). Notched Boxes; https://css-tricks.com/notched-boxes/
+2. Gaver, Dirk(25 feb 2021). The Best CSS Button Hover Effects You Can Use Too; https://www.sliderrevolution.com/resources/css-button-hover-effects/
+3. Sanne 't Hooft. https://codepen.io/shooft/pen/XWoYoVg
+4. Quinten Kok. ::-webkit-scrollbar Text
+5. Video pauzeren Javascript: code Ananda/ChatGPT
+6. Read more button javascript: Morda, Damon(n.v.t). Codepen; CodePen Home Load More Items from an List. https://codepen.io/dmorda/pen/AqVEXr
 
 </details>
