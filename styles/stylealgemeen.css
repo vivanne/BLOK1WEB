@@ -87,9 +87,12 @@ Kleuren
 	--color-accent:#c10020;
 	--color-background:rgb(255, 255, 255);
 	--color-background2:#fffbf3;
+	--color-cocktail1:rgb(79, 138, 144);
+	--color-cocktail2:rgb(92, 157, 101);
 	--color-divider:lightgrey;
 	--color-footer1:#272624;
 	--color-headernav:white;
+	--color-scrollbartrack:rgba(244, 218, 211, 0.372);
 }
 
 
@@ -103,9 +106,11 @@ Kleuren
 		--color-accent:#c24d4d;
 		--color-background:#1a1918;
 		--color-background2:#202020;
+		--color-cocktail1:rgb(79, 138, 144);
+		--color-cocktail2:rgb(92, 157, 101);
 		--color-divider:lightgrey;
 		--color-footer1:#000000;
-		--color-headernav:rgb(0, 0, 0);
+		--color-headernav:#191919;
 	}
 }
 
@@ -121,6 +126,17 @@ header {
     top: 0;
     z-index: 100;
     padding: 1em;
+}
+
+header a:nth-of-type(2) {
+	position: absolute;
+	left: -999em;
+}
+
+header a:nth-of-type(2):focus {
+	position: absolute;
+	left: 45vw;
+	top: 1.3em;
 }
 
 header button {
@@ -189,7 +205,7 @@ header nav ul {
 
 header nav ul li {
     align-items: center;
-    border-bottom: 1px solid var(--color-divider);
+    border-bottom: 0.02em solid var(--color-divider);
     list-style: none;
 
 	padding-top: 1.2em;
