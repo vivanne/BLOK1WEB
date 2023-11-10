@@ -18,7 +18,5 @@ function loadMore() {
         for (let i = 0; i < 5; i++) {
             loadMoreItems[i].classList.remove("hide");
         }
-    }, 2000);
-
-    
+    }, 2000); 
 }
